@@ -42,7 +42,7 @@ Partial Class DinerMenuForm
         '
         'SoupButton
         '
-        Me.SoupButton.Location = New System.Drawing.Point(12, 394)
+        Me.SoupButton.Location = New System.Drawing.Point(12, 306)
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(136, 44)
         Me.SoupButton.TabIndex = 1
@@ -51,7 +51,7 @@ Partial Class DinerMenuForm
         '
         'SaladButton
         '
-        Me.SaladButton.Location = New System.Drawing.Point(213, 394)
+        Me.SaladButton.Location = New System.Drawing.Point(213, 306)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(136, 44)
         Me.SaladButton.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class DinerMenuForm
         '
         'FishButton
         '
-        Me.FishButton.Location = New System.Drawing.Point(415, 394)
+        Me.FishButton.Location = New System.Drawing.Point(415, 306)
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(136, 44)
         Me.FishButton.TabIndex = 3
@@ -69,7 +69,7 @@ Partial Class DinerMenuForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(610, 394)
+        Me.ExitButton.Location = New System.Drawing.Point(610, 306)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(136, 44)
         Me.ExitButton.TabIndex = 4
@@ -81,7 +81,7 @@ Partial Class DinerMenuForm
         Me.DisplaySpecialLabel.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.DisplaySpecialLabel.Location = New System.Drawing.Point(76, 84)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
-        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(606, 272)
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(606, 173)
         Me.DisplaySpecialLabel.TabIndex = 5
         Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -90,7 +90,7 @@ Partial Class DinerMenuForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(761, 450)
+        Me.ClientSize = New System.Drawing.Size(761, 373)
         Me.Controls.Add(Me.DisplaySpecialLabel)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.FishButton)
