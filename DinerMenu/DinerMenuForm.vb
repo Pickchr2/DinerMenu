@@ -13,7 +13,7 @@ Public Class DinerMenuForm
     End Sub
 
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
-        DisplaySpecialLabel.Text = "~Grandma's Giambotta~" _
+        DisplaySpecialLabel.Text = "~Grandma's Garden Giambotta~" _
         & vbCrLf & vbCrLf _
         & "A wonderful, Italian vegetable stew, preparred with stewed tomatoes, green beans, diced potatoes, sliced mushrooms, ground hot Italian sausage, and a spledid blend of Italian herbs and spices!" _
         & vbCrLf & vbCrLf _
@@ -26,5 +26,13 @@ Public Class DinerMenuForm
         & "This really is the best homemade Caesar salad! With crunchy romaine lettuce, finely shredded parmesan cheese, and a robust, creamy homemade caesar salad dressing." _
         & vbCrLf & vbCrLf _
         & "Served with a hardy handful of garlic herb croutons!"
+    End Sub
+
+    Private Sub FishButton_Click(sender As Object, e As EventArgs) Handles FishButton.Click
+        DisplaySpecialLabel.Text = "~Dad's Secret Smoked Salmon~" _
+        & vbCrLf & vbCrLf _
+        & "This smoked salmon has an unmatched depth of flavor. It is smoky, for sure, but also has a very delicate, fresh taste, topped with a tangy citrus drizzle." _
+        & vbCrLf & vbCrLf _
+        & "Served with a side of herb roasted red potatoes and your choice of broccoli, brussel sprouts, or asparagus!"
     End Sub
 End Class
