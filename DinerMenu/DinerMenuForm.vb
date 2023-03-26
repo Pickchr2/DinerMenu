@@ -19,4 +19,12 @@ Public Class DinerMenuForm
         & vbCrLf & vbCrLf _
         & "Served with a slice of buttery garlic ciabatta bread!"
     End Sub
+
+    Private Sub SaladButton_Click(sender As Object, e As EventArgs) Handles SaladButton.Click
+        DisplaySpecialLabel.Text = "~Mom's Simple Caesar Salad~" _
+        & vbCrLf & vbCrLf _
+        & "This really is the best homemade Caesar salad! With crunchy romaine lettuce, finely shredded parmesan cheese, and a robust, creamy homemade caesar salad dressing." _
+        & vbCrLf & vbCrLf _
+        & "Served with a hardy handful of garlic herb croutons!"
+    End Sub
 End Class
