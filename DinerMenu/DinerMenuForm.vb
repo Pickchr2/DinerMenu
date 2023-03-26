@@ -13,7 +13,7 @@ Public Class DinerMenuForm
     End Sub
 
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
-        DisplaySpecialLabel.Text = "~Grandma's Garden Giambotta~" _
+        DisplaySpecialLabel.Text = "~Grandma's Garden-Fresh Giambotta~" _
         & vbCrLf & vbCrLf _
         & "A wonderful, Italian vegetable stew, preparred with stewed tomatoes, green beans, diced potatoes, sliced mushrooms, ground hot Italian sausage, and a spledid blend of Italian herbs and spices!" _
         & vbCrLf & vbCrLf _
